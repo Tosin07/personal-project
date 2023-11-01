@@ -1,0 +1,80 @@
+.project_parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.project, .project-books {
+    background-color: gray;
+    width: 100%; 
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.project_parent h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod;
+    text-align: center;
+}    
+
+.header{
+    background-color: #FA320A;
+    border: 1px white solid;
+    width: 100vw;
+    margin-bottom: 30px;
+}
+
+
+
+.header h1{
+ color: burlywood;
+}
+
+
+
+.body{
+    background-color: rgba(255, 255, 255, 0.559);
+    width: 25%;
+    padding-left: 40px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+}
+
+.body img {
+    padding-top: 10px;
+}
+.project .body h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #FA320A;
+}
+
+.body p {
+    font-family: fantasy;
+    padding-bottom: 20px;
+}
+.body button{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.books-class {
+    background-color: rgba(255, 255, 255, 0.559);
+    width: 25%;
+    margin: 5rem;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+
+.books-class img, h2, p {
+    padding-top: 20px;
+    padding-left: 40px;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 30px;
+}
